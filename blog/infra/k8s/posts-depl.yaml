@@ -12,6 +12,6 @@ spec:
       labels:
         app: posts
     spec:
-      container:
+      containers:
         - name: posts
           image: posts:0.0.1
